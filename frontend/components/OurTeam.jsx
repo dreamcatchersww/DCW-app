@@ -5,6 +5,7 @@ import { getOurTeam } from '../app/src/data/loaders'
 import getStrapiURL from '../app/src/utils/get-strapi-url'
 import { useLocale } from './LocaleContext'
 import Image from 'next/image'
+import Countdown from './ui/Countdown'
 
 export function OurTeam() {
   const [teamNZ, setTeamNZ] = useState([])
@@ -38,6 +39,7 @@ export function OurTeam() {
         <p className="text-gray-600 font-[Convergence] text-lg">
           Please wait while the page loads…
         </p>
+        <Countdown />
       </section>
     )
   }
@@ -49,11 +51,11 @@ export function OurTeam() {
       </div>
       <div className="bg-white py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {selectedTeam.map((member, index) => {
-          // ✅ Prefer thumbnail image if available
+          // Prefer thumbnail image if available
           const rawUrl =
             member.image?.formats?.thumbnail?.url || member.image?.url
 
-          // ✅ Prefix with Strapi base URL if it's a relative path
+          //Prefix with Strapi base URL if it's a relative path
           const imageUrl = rawUrl?.startsWith('http')
             ? rawUrl
             : `${getStrapiURL()}${rawUrl || ''}`
