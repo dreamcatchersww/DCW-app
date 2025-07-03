@@ -69,7 +69,7 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <div className="sticky top-0 z-50 pt-2 pb-2 bg-gradient-to-r from-[#8A5082] to-[#A5CAD2] w-full overflow-x-hidden hidden md:block">
+      <div className="sticky top-0 z-50 pt-2 pb-2 bg-gradient-to-r from-[#8A5082] to-[#A5CAD2] w-full overflow-x-hidden hidden md:block shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
         <div className="hidden md:flex justify-center space-x-40 lg:space-x-62 text-md relative">
           {navItems.map(({ key, label, subLabel }) => (
             <div className="relative" key={key}>
