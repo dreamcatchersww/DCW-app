@@ -43,7 +43,7 @@ export default function RootClientLayout({
       </div>
 
       {/* Sticky Toggle */}
-      <div className="sticky top-0 z-50 hidden lg:block  py-1 px-6">
+      <div className="sticky top-0 z-50 hidden lg:block  px-0">
         <div className="">
           <Toggle />
         </div>
