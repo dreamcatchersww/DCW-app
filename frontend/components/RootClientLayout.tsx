@@ -37,20 +37,20 @@ export default function RootClientLayout({
     <div style={backgroundStyle} className="overflow-visible">
       <TopLogos />
 
-      <div className=" sticky flex items-center justify-between md:hidden px-6 top-0 z-50 bg-gradient-to-r from-[#8A5082] to-[#A5CAD2] py-1 mt-4 shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
+      <div className=" sticky flex items-center justify-between lg:hidden px-6 top-0 z-50 bg-gradient-to-r from-[#8A5082] to-[#A5CAD2] py-1 mt-4 shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
         <MobileMenuToggle />
         <Toggle />
       </div>
 
       {/* Sticky Toggle */}
-      <div className="sticky top-0 z-50 hidden md:block  py-1 px-6">
+      <div className="sticky top-0 z-50 hidden lg:block  py-1 px-6">
         <div className="">
           <Toggle />
         </div>
       </div>
 
       {/* Sticky Navbar under Toggle */}
-      <div className="sticky top-[48px] z-40 hidden md:block ">
+      <div className="sticky top-[48px] z-40 hidden lg:block ">
         <Navbar />
       </div>
 
