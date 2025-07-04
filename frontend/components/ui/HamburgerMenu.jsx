@@ -84,16 +84,16 @@ export default function HamburgerMenu() {
             >
               What We Do
             </a>
-            <div className="pb-2">
+            <div className="pb-2 pt-4">
               <a
-                href="what-we-do#projects"
-                className="text-[#986100] text-md font-[Convergence] mb-2 "
+                href="what-we-do#services"
+                className="text-black text-sm font-[Convergence] space-y-2"
               >
-                Projects
+                Services
               </a>
             </div>
 
-            <ul className="text-black text-sm font-[Convergence] space-y-2">
+            {/* <ul className="text-black text-sm font-[Convergence] space-y-2">
               <li>
                 <a href="what-we-do#projects">Stretch and Flex (Yoga)</a>
               </li>
@@ -106,17 +106,17 @@ export default function HamburgerMenu() {
               <li>
                 <a href="what-we-do#projects">Dance Classes</a>
               </li>
-            </ul>
+            </ul> */}
             <div className="py-2">
               <a
                 href="what-we-do#events"
-                className="text-[#986100] text-md font-[Convergence] "
+                className="text-black text-sm font-[Convergence] space-y-2 "
               >
                 Events
               </a>
             </div>
 
-            <ul className="text-black text-sm font-[Convergence] space-y-2">
+            {/* <ul className="text-black text-sm font-[Convergence] space-y-2">
               <li>
                 <a href="what-we-do#events">Feed4All</a>
               </li>
@@ -126,7 +126,15 @@ export default function HamburgerMenu() {
               <li>
                 <a href="what-we-do#events">House Dance NZ</a>
               </li>
-            </ul>
+            </ul> */}
+            <div className="py-2">
+              <a
+                href="what-we-do#affiliations"
+                className="text-black text-sm font-[Convergence] space-y-2"
+              >
+                Affiliations
+              </a>
+            </div>
           </div>
         )}
         {activeMenu === 'joinUs' && (

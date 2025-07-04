@@ -19,7 +19,7 @@ export default function NavbarWhatWeDo() {
             <div className="border-l-2 sm:border-l-3 border-white h-80 my-4 sm:my-0 sm:mr-8"></div>
 
             {/* Middle Column - Larger Size */}
-            <div className="flex-1 p-2 sm:p-4 font-[Convergence]">
+            <div className="flex-1 p-0 font-[Convergence]">
               <div className="hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                 <a
                   href="what-we-do"
@@ -29,12 +29,12 @@ export default function NavbarWhatWeDo() {
                 </a>
               </div>
               <a href="what-we-do#services" className="block">
-                <h2 className="text-lg sm:text-xl text-[#986100] mt-4 sm:mt-8 hover:underline cursor-pointer hover:scale-105 hover:translate-x-1 transition-transform duration-200">
+                <h2 className="text-lg sm:text-xl text-[#986100] mt-4 hover:underline cursor-pointer hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                   Services
                 </h2>
               </a>
 
-              <div className="mt-6 sm:mt-8">
+              <div className="mt-2">
                 <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm">
                   <li className="hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                     <a
@@ -82,15 +82,15 @@ export default function NavbarWhatWeDo() {
             <div className="border-l-2 sm:border-l-3 border-white h-80 my-4 sm:my-0 sm:mr-8 mx-7"></div>
 
             {/* Right Column - Larger Size */}
-            <div className="flex-1 p-2 sm:p-4">
-              <div className="flex-1 p-2 sm:p-4 font-[Convergence]">
+            <div className="flex-1">
+              <div className="flex-1  font-[Convergence]">
                 <a href="what-we-do#events" className="block">
                   <h2 className="text-lg sm:text-xl text-[#986100] mt-0  sm:mt-0 hover:underline cursor-pointer hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                     Events
                   </h2>
                 </a>
 
-                <div className="mt-6 sm:mt-8">
+                <div className="mt-2 sm:mt-2">
                   <ul className="space-y-2 sm:space-y-2 text-xs sm:text-sm">
                     <li className="hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                       <a
@@ -102,8 +102,8 @@ export default function NavbarWhatWeDo() {
                       </a>
                     </li>
 
-                    <a href="what-we-do#events" className="block">
-                      <h2 className="text-lg sm:text-xl text-[#986100] mt-6 sm:mt-9 hover:underline cursor-pointer hover:scale-105 hover:translate-x-1 transition-transform duration-200">
+                    <a href="what-we-do#affiliations" className="block">
+                      <h2 className="text-lg sm:text-xl text-[#986100] mt-2 sm:mt-4 hover:underline cursor-pointer hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                         Affiliations
                       </h2>
                     </a>
@@ -152,7 +152,7 @@ export default function NavbarWhatWeDo() {
             <div className="border-l-2 sm:border-l-3 border-white h-80 my-4 sm:my-0 sm:mr-8"></div>
 
             {/* Middle Column - Larger Size */}
-            <div className="flex-1 p-2 sm:p-4 font-[Convergence]">
+            <div className="flex-1 font-[Convergence]">
               <div className="hover:scale-105 hover:translate-x-1 transition-transform duration-200">
                 <a
                   href="what-we-do"
